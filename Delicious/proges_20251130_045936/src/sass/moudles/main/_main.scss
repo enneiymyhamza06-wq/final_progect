@@ -1,46 +1,60 @@
-.hamza_carousil_1{
+.hamza_carousil_1 {
     position: relative;
 }
-// 
 
+//
+.imgss_carosil {
+    width: 100%;
+    height: 45.5vw;
+}
+
+.part_2 {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(33, 30, 24);
+    padding-left: 115px;
+    padding-right: 115px;
+}
 
 .hamza_carousil_1 {
-   p{
-     text-align: start;
-     font-size: 18px;
-   }
-   div{
-
-   }
-    .hamza_carousil_1 {
-    position: absolute;
-    background-color: firebrick;
-    z-index: 1;
-    display:table;
-    width:100%;
-    height:100%;
-    
-}
-.hamza_div_2{
- h1{
-    font-family: "Satisfy", cursive;
- }
-}
-
-.carousel-caption{
-       bottom: 28.25rem;
-    font-size: 22px;
-    h5{
-        font-size:60px;
+    p {
+        text-align: start;
+        font-size: 18px;
     }
-    h5 {
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
+
+    .hamza_carousil_1 {
+        position: absolute;
+        background-color: firebrick;
+        z-index: 1;
+        display: table;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .hamza_div_2 {
+        h1 {
+            font-family: "Satisfy", cursive;
+        }
+    }
+
+    .carousel-caption {
+        bottom: 20.25rem;
+        font-size: 22px;
+
+        h5 {
+            font-size: 60px;
+        }
+
+        h5 {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
 }
-}
-}
-.mian_links{
+
+.mian_links {
     // background-color: chartreuse;
     height: max-content;
     width: 100%;
@@ -48,64 +62,147 @@
     flex-direction: row;
     column-gap: 30px;
     justify-content: center;
-     a{
-                text-decoration: none;
-                list-style: none;
-                color: white;
-                 border: 2px solid rgb(255, 176, 59);
-                 border-radius: 50px;
-                 padding: 5px 15px;
-            }
-            a:hover{
-                    background-color: rgb(255, 176, 59);
-                    transition: 0.5s;
-            }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        border: 2px solid rgb(255, 176, 59);
+        border-radius: 50px;
+        padding: 5px 15px;
+    }
+
+    a:hover {
+        background-color: rgb(255, 176, 59);
+        transition: 0.5s;
+    }
 }
+
 //
 .sec_main_2 {
     background-color: rgb(255, 250, 242);
     width: 100%;
-    height: 25vw;
+    height: 31vw;
 }
-.carosil_icons_sec2{
+
+.carosil_icons_sec2 {
     // background-color:rgb(255, 250, 242);
     width: 100%;
     height: 30vw;
     display: flex;
-    .carousil_video{
+
+    .carousil_video {
         width: 50%;
         height: 25vw;
-        background-color: aqua;
-    }
-    .para_and_icons{
-        // background-color: darkgoldenrod;
-        width: 50%;
-        height: 25vw;
-        .icons_color{
-            i{
-                color: orange;
-            }
+        // background-color: aqua;
+
+        img {
+            overflow: auto;
+            width: 100%;
         }
     }
 
+    .para_and_icons {
+        width: 50%;
+        height: 25vw;
+        // padding-left: 10px;
+
+        .icons_color {
+            i {
+                color: orange;
+            }
+      
+        }      h1{
+                   font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(66, 62, 56);
+        font-size: 50px;
+        font-weight: bold;
+            }
+            .para_last{
+                padding-left: 20px;
+            }
+    }
+
 }
+
 // sec_3
-.WhyUs_and_para{
-    background-color: aliceblue;
+.WhyUs_and_para {
+    // background-color: rgb(29, 90, 143);
     width: 100%;
     height: 10vw;
-    h5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    h5 {
+        // background-color: rgb(255, 247, 235);
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(17, 17, 17);
+        font-size: 30px;
+    }
+
+    .Our_Restaurant {
+        color: orange;
+    }
+
+    h5 {
         background-color: rgb(255, 247, 235);
         color: rgb(255, 176, 59);
-                font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+        border-radius: 25px;
+        width: max-content;
+        padding: 3px 15px;
+    }
+}
+
+// sec_3
+.sec_main_3 {
+    background-color: rgb(255, 255, 255);
+}
+// sec_3
+.boxxx_sec_3{
+    // background-color: aqua;
+    height: 13vw;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: start;
+    div{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(250, 250, 250);
+        flex-direction: column;
+        row-gap: 8px;
+        transition: 0.5s;
+        padding-left:40px;
+    }
+    h1{
+        font-size: 35px;
+        color: orange;
+    }
+    h2{
+         font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(17, 17, 17);
+        font-size: 25px;
     }
     p{
-                font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+        color: gray;
+        font-size: 15px;
+    }
+    div:hover{
+        background-color: orange;
+        h2 ,p , h1{
+            color: white;
+        }
     }
 }

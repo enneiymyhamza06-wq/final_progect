@@ -46,6 +46,19 @@ a:hover li {
   position: relative;
 }
 
+.imgss_carosil {
+  width: 100%;
+  height: 45.5vw;
+}
+
+.part_2 {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(33, 30, 24);
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
 .hamza_carousil_1 p {
   text-align: start;
   font-size: 18px;
@@ -62,7 +75,7 @@ a:hover li {
   font-family: "Satisfy", cursive;
 }
 .hamza_carousil_1 .carousel-caption {
-  bottom: 28.25rem;
+  bottom: 20.25rem;
   font-size: 22px;
 }
 .hamza_carousil_1 .carousel-caption h5 {
@@ -98,7 +111,7 @@ a:hover li {
 .sec_main_2 {
   background-color: rgb(255, 250, 242);
   width: 100%;
-  height: 25vw;
+  height: 31vw;
 }
 
 .carosil_icons_sec2 {
@@ -109,7 +122,10 @@ a:hover li {
 .carosil_icons_sec2 .carousil_video {
   width: 50%;
   height: 25vw;
-  background-color: aqua;
+}
+.carosil_icons_sec2 .carousil_video img {
+  overflow: auto;
+  width: 100%;
 }
 .carosil_icons_sec2 .para_and_icons {
   width: 50%;
@@ -118,24 +134,85 @@ a:hover li {
 .carosil_icons_sec2 .para_and_icons .icons_color i {
   color: orange;
 }
-
-.WhyUs_and_para {
-  background-color: aliceblue;
-  width: 100%;
-  height: 10vw;
-}
-.WhyUs_and_para h5 {
-  background-color: rgb(255, 247, 235);
-  color: rgb(255, 176, 59);
+.carosil_icons_sec2 .para_and_icons h1 {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: rgb(66, 62, 56);
+  font-size: 50px;
+  font-weight: bold;
+}
+.carosil_icons_sec2 .para_and_icons .para_last {
+  padding-left: 20px;
+}
+
+.WhyUs_and_para {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.WhyUs_and_para h5 {
+  color: rgb(0, 0, 0);
 }
 .WhyUs_and_para p {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
+  color: rgb(17, 17, 17);
+  font-size: 30px;
+}
+.WhyUs_and_para .Our_Restaurant {
+  color: orange;
+}
+.WhyUs_and_para h5 {
+  background-color: rgb(255, 247, 235);
+  color: rgb(255, 176, 59);
+  border-radius: 25px;
+  width: max-content;
+  padding: 3px 15px;
+}
+
+.sec_main_3 {
+  background-color: rgb(255, 255, 255);
+}
+
+.boxxx_sec_3 {
+  height: 13vw;
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: start;
+}
+.boxxx_sec_3 div {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 250, 250);
+  flex-direction: column;
+  row-gap: 8px;
+  transition: 0.5s;
+  padding-left: 40px;
+}
+.boxxx_sec_3 h1 {
+  font-size: 35px;
+  color: orange;
+}
+.boxxx_sec_3 h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(17, 17, 17);
+  font-size: 25px;
+}
+.boxxx_sec_3 p {
+  color: gray;
+  font-size: 15px;
+}
+.boxxx_sec_3 div:hover {
+  background-color: orange;
+}
+.boxxx_sec_3 div:hover h2, .boxxx_sec_3 div:hover p, .boxxx_sec_3 div:hover h1 {
   color: white;
 }
 
