@@ -1,37 +1,111 @@
 .hamza_carousil_1{
     position: relative;
 }
-
-.hamza_carousil_1::before{
- content: '';
- background-color: red;
- width: 400px;
- height: 400px;
-}
 // 
 
 
 .hamza_carousil_1 {
-    position:relative;
-    .carousel-caption {
+   p{
+     text-align: start;
+     font-size: 18px;
+   }
+   div{
+
+   }
+    .hamza_carousil_1 {
     position: absolute;
+    background-color: firebrick;
     z-index: 1;
     display:table;
     width:100%;
     height:100%;
+    
+}
+.hamza_div_2{
+ h1{
+    font-family: "Satisfy", cursive;
+ }
 }
 
-// .absolute-div {
-//     position: absolute;
-//       top: 50%;
-//       left: 50%;
-//       right: 50%;
-//       bottom: 70px;
-// }
+.carousel-caption{
+       bottom: 28.25rem;
+    font-size: 22px;
+    h5{
+        font-size:60px;
+    }
+    h5 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+}
+.mian_links{
+    // background-color: chartreuse;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+     a{
+                text-decoration: none;
+                list-style: none;
+                color: white;
+                 border: 2px solid rgb(255, 176, 59);
+                 border-radius: 50px;
+                 padding: 5px 15px;
+            }
+            a:hover{
+                    background-color: rgb(255, 176, 59);
+                    transition: 0.5s;
+            }
+}
+//
+.sec_main_2 {
+    background-color: rgb(255, 250, 242);
+    width: 100%;
+    height: 25vw;
+}
+.carosil_icons_sec2{
+    // background-color:rgb(255, 250, 242);
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    .carousil_video{
+        width: 50%;
+        height: 25vw;
+        background-color: aqua;
+    }
+    .para_and_icons{
+        // background-color: darkgoldenrod;
+        width: 50%;
+        height: 25vw;
+        .icons_color{
+            i{
+                color: orange;
+            }
+        }
+    }
 
-// .carousel-caption h3 {
-//     display:table-cell;
-//     vertical-align: middle;
-//     text-align:center;
-// }
+}
+// sec_3
+.WhyUs_and_para{
+    background-color: aliceblue;
+    width: 100%;
+    height: 10vw;
+    h5{
+        background-color: rgb(255, 247, 235);
+        color: rgb(255, 176, 59);
+                font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+    }
+    p{
+                font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+    }
 }
