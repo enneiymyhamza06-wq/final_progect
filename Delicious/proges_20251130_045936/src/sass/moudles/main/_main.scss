@@ -10,10 +10,15 @@
 
 .part_2 {
     width: 100%;
-    height: max-content;
+    height: 4vw;
     background-color: rgb(33, 30, 24);
+     background-color: rgba(0, 0, 0, 0.5);
     padding-left: 115px;
     padding-right: 115px;
+    .h1_part_2{
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
 
 .hamza_carousil_1 {
@@ -43,13 +48,13 @@
         font-size: 22px;
 
         h5 {
-            font-size: 60px;
-        }
-
-        h5 {
             font-family: "Satisfy", cursive;
             font-weight: 400;
             font-style: normal;
+             font-size: 60px;
+        }
+        .Delicious{
+            color:$orange_color;
         }
     }
 }
@@ -67,7 +72,7 @@
         text-decoration: none;
         list-style: none;
         color: white;
-        border: 2px solid rgb(255, 176, 59);
+        border: 2px solid $orange_color;
         border-radius: 50px;
         padding: 5px 15px;
     }
@@ -109,20 +114,23 @@
 
         .icons_color {
             i {
-                color: orange;
+                color: $orange_color;
             }
-      
-        }      h1{
-                   font-family: "Satisfy", cursive;
-        font-weight: 400;
-        font-style: normal;
-        color: rgb(66, 62, 56);
-        font-size: 50px;
-        font-weight: bold;
-            }
-            .para_last{
-                padding-left: 20px;
-            }
+
+        }
+
+        h1 {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(66, 62, 56);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .para_last {
+            padding-left: 20px;
+        }
     }
 
 }
@@ -136,7 +144,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-   
+
 
     h5 {
         // background-color: rgb(255, 247, 235);
@@ -152,12 +160,12 @@
     }
 
     .Our_Restaurant {
-        color: orange;
+        color: $orange_color;
     }
 
     h5 {
         background-color: rgb(255, 247, 235);
-        color: rgb(255, 176, 59);
+        color: $orange_color;
         border-radius: 25px;
         width: max-content;
         padding: 3px 15px;
@@ -168,41 +176,152 @@
 .sec_main_3 {
     background-color: rgb(255, 255, 255);
 }
+
 // sec_3
-.boxxx_sec_3{
+.boxxx_sec_3 {
     // background-color: aqua;
     height: 13vw;
     width: 100%;
     padding-bottom: 20px;
     text-align: start;
-    div{
+
+    div {
         display: flex;
         justify-content: center;
         background-color: rgb(250, 250, 250);
         flex-direction: column;
         row-gap: 8px;
         transition: 0.5s;
-        padding-left:40px;
+        padding-left: 40px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
-        color: orange;
+        color: $orange_color;
     }
-    h2{
-         font-family: "Satisfy", cursive;
+
+    h2 {
+        font-family: "Satisfy", cursive;
         font-weight: 400;
         font-style: normal;
         color: rgb(17, 17, 17);
         font-size: 25px;
     }
-    p{
+
+    p {
         color: gray;
         font-size: 15px;
     }
-    div:hover{
-        background-color: orange;
-        h2 ,p , h1{
+
+    div:hover {
+        background-color: $orange_color;
+
+        h2,
+        p,
+        h1 {
             color: white;
         }
     }
+}
+
+// sec_4
+.sec_main_4 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 49vw;
+
+    .menu_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+        width: 100%;
+        height: 10vw;
+        justify-content: center;
+        h1 {
+                 background-color: rgb(255, 247, 235);
+           color: $orange_color;
+          border-radius: 25px;
+        width: max-content;
+        padding: 3px 15px;
+        font-size: 22px;
+
+        }
+        p{
+             font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(17, 17, 17);
+        font-size: 30px;
+        }
+    }
+}
+
+.between_img{
+    position: relative;
+} 
+.carousil_between_img {
+    position: absolute;
+    top: 1121px;
+    left: 589px;
+
+}
+.carousil_between_img{
+    background-color: $orange_color;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    i{
+        color: white;
+        font-size: 40px;
+    }
+}
+// @keyframes  mohamza{
+//     0%{
+//         font-size: 40px;
+//     }
+//     25%{
+//         font-size: 60px;
+//     }
+//     50%{
+//         font-size: 80px;
+//     }
+//     100%{
+
+//     }
+
+// }
+// .carousil_between_img i{
+//     animation-name: mohamza;
+//     animation-delay: 2s;
+// }
+// sec_2
+.sec_main_2{
+    button:hover{
+        padding: 45px;
+        border-radius: 50%;
+          animation-name:mohamza;
+          animation-duration: 1s;
+    }
+     button:hover .bi-play-fill{
+        font-size: 150px;
+        transition:150ms;
+    }
+    @keyframes mohamza{
+    from{
+            transform: scale(0.6, 0.6);
+    opacity: 1;
+    }
+    to{
+            transform: scale(1, 1);
+    opacity: 0;
+    }
+
+
+}
+
 }
