@@ -504,12 +504,12 @@
 .sec_7_BookA_Table{
     width: 100%;
     height: 42vw;
-    background-color: cadetblue;
+    // background-color: cadetblue;
     .span_book_a_table{
         color: $orange_color;
     }
     .WhyUs_and_para{
-        background-color: aqua;
+        // background-color: aqua;
         width: 100%;
         height: 10vw;
     }
@@ -570,5 +570,36 @@
  .input_time input{
         width: 240px;
     }
+
+// sec_8_Gallery
+.sec_8_Gallery{
+    // background-color: brown;
+    width: 100%;
+    height: 48vw;
+    .span_gallery_color{
+        color: $orange_color;
+    }
+    .parnt_sec8 div{
+        height: 100%;
+    }
+   .img_sec8{
+    // background-color: chartreuse;
+    height: max-content;
+    // border: 10px solid;
+   }
+}
+.parnt_sec8{
+    width: 100%;
+    height: max-content;
+    row-gap: 20px;
+    img{
+        width: 100%;
+        height: max-content;
+        transition: 0.5s;
+    }
+    .img_sec8:hover{
+      padding: 1px;
+    }
+}
 
 

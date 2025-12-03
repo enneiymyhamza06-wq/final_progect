@@ -443,13 +443,11 @@ a:hover li {
 .sec_7_BookA_Table {
   width: 100%;
   height: 42vw;
-  background-color: cadetblue;
 }
 .sec_7_BookA_Table .span_book_a_table {
   color: rgb(255, 176, 59);
 }
 .sec_7_BookA_Table .WhyUs_and_para {
-  background-color: aqua;
   width: 100%;
   height: 10vw;
 }
@@ -504,6 +502,34 @@ a:hover li {
 
 .input_time input {
   width: 240px;
+}
+
+.sec_8_Gallery {
+  width: 100%;
+  height: 48vw;
+}
+.sec_8_Gallery .span_gallery_color {
+  color: rgb(255, 176, 59);
+}
+.sec_8_Gallery .parnt_sec8 div {
+  height: 100%;
+}
+.sec_8_Gallery .img_sec8 {
+  height: max-content;
+}
+
+.parnt_sec8 {
+  width: 100%;
+  height: max-content;
+  row-gap: 20px;
+}
+.parnt_sec8 img {
+  width: 100%;
+  height: max-content;
+  transition: 0.5s;
+}
+.parnt_sec8 .img_sec8:hover {
+  padding: 1px;
 }
 
 /*# sourceMappingURL=app.css.map */
