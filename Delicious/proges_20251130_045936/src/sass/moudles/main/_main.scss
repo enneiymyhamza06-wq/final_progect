@@ -236,7 +236,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: blue;
+        // background-color: blue;
         width: 100%;
         height: 10vw;
         justify-content: center;
@@ -448,4 +448,37 @@
         width: 75%;
         height: 100%;
     }
+}
+
+.collapseExampleee_link{
+    p{
+        text-align: start;
+    }
+    a{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    p:hover{
+        color: $orange_color ;
+    }
+}
+#hamza_speacil{
+    width: 1800px;
+}
+.h1_para_specials{
+    text-align: start;
+    h1{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: $font_page;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+.sec_main_6{
+    background-color: blue;
+    width: 100%;
+    height: 32vw;
 }

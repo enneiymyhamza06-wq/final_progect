@@ -235,7 +235,6 @@ a:hover li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
   width: 100%;
   height: 10vw;
   justify-content: center;
@@ -389,6 +388,39 @@ a:hover li {
 .sec_main_5 img {
   width: 75%;
   height: 100%;
+}
+
+.collapseExampleee_link p {
+  text-align: start;
+}
+.collapseExampleee_link a {
+  font-weight: bold;
+  font-size: 15px;
+}
+.collapseExampleee_link p:hover {
+  color: rgb(255, 176, 59);
+}
+
+#hamza_speacil {
+  width: 1800px;
+}
+
+.h1_para_specials {
+  text-align: start;
+}
+.h1_para_specials h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+.h1_para_specials p {
+  font-size: 15px;
+}
+
+.sec_main_6 {
+  background-color: blue;
+  width: 100%;
+  height: 32vw;
 }
 
 /*# sourceMappingURL=app.css.map */
