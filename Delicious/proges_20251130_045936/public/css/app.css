@@ -422,5 +422,88 @@ a:hover li {
   width: 100%;
   height: 32vw;
 }
+.sec_main_6 .image_sec_6 {
+  width: 100%;
+  height: 100%;
+}
+.sec_main_6 .image_sec_6 img {
+  width: 100%;
+  height: 100%;
+}
+.sec_main_6 .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 176, 59);
+}
+.sec_main_6 .carousel-indicators [data-bs-target]:active {
+  background-color: rgb(255, 176, 59);
+}
+
+.sec_7_BookA_Table {
+  width: 100%;
+  height: 42vw;
+  background-color: cadetblue;
+}
+.sec_7_BookA_Table .span_book_a_table {
+  color: rgb(255, 176, 59);
+}
+.sec_7_BookA_Table .WhyUs_and_para {
+  background-color: aqua;
+  width: 100%;
+  height: 10vw;
+}
+.sec_7_BookA_Table .input_and_img_sec_7 {
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 30vw;
+}
+.sec_7_BookA_Table .img_sec_7 img {
+  width: 100%;
+  height: 100%;
+}
+
+.input_and_img_sec_7 div {
+  height: 100%;
+}
+
+.input_divs div {
+  width: 100%;
+  height: max-content;
+}
+
+.input_sec_7 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.input_sec_7 div .input_part_1 {
+  flex-direction: row;
+}
+.input_sec_7 div .input_part_2 {
+  flex-direction: row;
+}
+.input_sec_7 div .div_1_input input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.input_sec_7 div .butttn button {
+  background-color: rgb(255, 176, 59);
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.input_sec_7 input {
+  background-color: rgb(255, 255, 255);
+}
+
+.input_time input {
+  width: 240px;
+}
 
 /*# sourceMappingURL=app.css.map */
