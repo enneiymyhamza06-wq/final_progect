@@ -12,10 +12,11 @@
     width: 100%;
     height: 4vw;
     background-color: rgb(33, 30, 24);
-     background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-left: 115px;
     padding-right: 115px;
-    .h1_part_2{
+
+    .h1_part_2 {
         font-size: 30px;
         font-weight: bold;
     }
@@ -51,10 +52,11 @@
             font-family: "Satisfy", cursive;
             font-weight: 400;
             font-style: normal;
-             font-size: 60px;
+            font-size: 60px;
         }
-        .Delicious{
-            color:$orange_color;
+
+        .Delicious {
+            color: $orange_color;
         }
     }
 }
@@ -201,7 +203,7 @@
     }
 
     h2 {
-        font-family: "Satisfy", cursive;
+        font-family:$font_page;
         font-weight: 400;
         font-style: normal;
         color: rgb(17, 17, 17);
@@ -226,9 +228,9 @@
 
 // sec_4
 .sec_main_4 {
-    background-color: aquamarine;
+    // background-color: aquamarine;
     width: 100%;
-    height: 49vw;
+    height: 47.5vw;
 
     .menu_div {
         display: flex;
@@ -238,35 +240,39 @@
         width: 100%;
         height: 10vw;
         justify-content: center;
+
         h1 {
-                 background-color: rgb(255, 247, 235);
-           color: $orange_color;
-          border-radius: 25px;
-        width: max-content;
-        padding: 3px 15px;
-        font-size: 22px;
+            background-color: rgb(255, 247, 235);
+            color: $orange_color;
+            border-radius: 25px;
+            width: max-content;
+            padding: 3px 15px;
+            font-size: 22px;
 
         }
-        p{
-             font-family: "Satisfy", cursive;
-        font-weight: 400;
-        font-style: normal;
-        color: rgb(17, 17, 17);
-        font-size: 30px;
+
+        p {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(17, 17, 17);
+            font-size: 30px;
         }
     }
 }
 
-.between_img{
+.between_img {
     position: relative;
-} 
+}
+
 .carousil_between_img {
     position: absolute;
     top: 1121px;
     left: 589px;
 
 }
-.carousil_between_img{
+
+.carousil_between_img {
     background-color: $orange_color;
     width: 80px;
     height: 80px;
@@ -275,53 +281,171 @@
     align-items: center;
     justify-content: center;
     border: none;
-    i{
+
+    i {
         color: white;
         font-size: 40px;
     }
 }
-// @keyframes  mohamza{
-//     0%{
-//         font-size: 40px;
-//     }
-//     25%{
-//         font-size: 60px;
-//     }
-//     50%{
-//         font-size: 80px;
-//     }
-//     100%{
 
-//     }
-
-// }
-// .carousil_between_img i{
-//     animation-name: mohamza;
-//     animation-delay: 2s;
-// }
-// sec_2
-.sec_main_2{
-    button:hover{
+.sec_main_2 {
+    button:hover {
         padding: 45px;
         border-radius: 50%;
-          animation-name:mohamza;
-          animation-duration: 1s;
-    }
-     button:hover .bi-play-fill{
-        font-size: 150px;
-        transition:150ms;
-    }
-    @keyframes mohamza{
-    from{
-            transform: scale(0.6, 0.6);
-    opacity: 1;
-    }
-    to{
-            transform: scale(1, 1);
-    opacity: 0;
+        animation-name: mohamza;
+        animation-duration: 1s;
     }
 
+    button:hover .bi-play-fill {
+        font-size: 150px;
+        transition: 150ms;
+    }
+
+    // @keyframes mohamza {
+    //     from {
+    //         transform: scale(0.6, 0.6);
+    //         opacity: 1;
+    //     }
+
+    //     to {
+    //         transform: scale(1, 1);
+    //         opacity: 0;
+    //     }
+
+
+    // }
 
 }
 
+.div_only_sass {
+    // background-color: red;
+    width: 100%;
+    height: 86.5vh;
+    display: flex;
+
+    .div_only_sass_part_1 {
+        width: 50%;
+        height: 86.5vh;
+        // background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        font-size: 25px;
+    }
+
+    .div_only_sass_part_2 {
+        width: 50%;
+        height: 86.5vh;
+        // background-color: forestgreen;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        font-size: 25px;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .div_span_menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .div_img_and_span {
+        // background-color: aquamarine;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        column-gap: 11px;
+
+        .span_menu_colorGrey {
+            color: gray;
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .img_backgr {
+            background-color: rgb(237, 237, 237);
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+        }
+
+        .dolar_menu {
+            color: $orange_color;
+            font-weight: bold;
+        }
+
+        .point_for_menu {
+            color: gray;
+        }
+    }
+}
+
+// links_menu_only_Sass
+.links_menu_only_Sass {
+    // background-color: chartreuse;
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        a {
+            text-decoration: none;
+            color: gray;
+            font-family: $font_page;
+            font-weight: 400;
+            font-style: normal;
+        }
+    } a:hover{
+        color: $orange_color;
+    }
+}
+// sec_main_5
+.sec_main_5{
+    // background-color: chartreuse;
+    width: 100%;
+    height: 28vw;
+}
+// .Specials_and_para p{
+//     font-family:$font_page;
+//         font-weight: 400;
+//         font-family:$font_page;
+//         font-size: 40px;
+//         .Specials{
+//             color:$orange_color;
+//         }
+//         h5{
+//             background-color: aqua;
+//             width: 100px;
+//             height: 100px;
+//         }
+// }
+.WhyUs_and_para{
+    // background-color: aquamarine;
+    width: 100%;
+    height: 10vw;
+}
+.sec_main_5{
+    .image{
+        // background-color: aqua;
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 75%;
+        height: 100%;
+    }
 }
