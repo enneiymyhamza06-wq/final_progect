@@ -37,7 +37,7 @@ L’ensemble du site est entièrement responsive.
 
 ## Auteur
 
-Projet développé par Imane, passionnée par le développement web, le design d’interface et les projets créatifs.
+Projet développé par hamza, passionnée par le développement web, le design d’interface et les projets créatifs.
 
 ---
 
