@@ -671,7 +671,7 @@ ul{
     height: 30vw;
 }
 .sec_11{
-    background-color: red;
+    // background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -758,8 +758,9 @@ iframe {
         border: none;
         color: white;
     }
- .input_last input{
-    border: none;
+ input{
+    // border: none
+
  }
   .input_last{
         display: flex;
@@ -768,3 +769,18 @@ iframe {
         flex-direction: column;
         row-gap: 10px;
   }
+//   .div_i_chaf{
+//   }
+
+.form-control:focus {
+  outline: none;           
+  box-shadow: none;      
+  border-color: #ced4da;   
+}
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+

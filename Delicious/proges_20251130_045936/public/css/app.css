@@ -561,7 +561,6 @@ a:hover li {
 }
 
 .sec_11 {
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,16 +621,24 @@ button {
   color: white;
 }
 
-.input_last input {
-  border: none;
-}
-
 .input_last {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   row-gap: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
 }
 
 footer {
