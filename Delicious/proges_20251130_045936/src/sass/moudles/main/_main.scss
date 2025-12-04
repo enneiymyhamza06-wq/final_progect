@@ -203,7 +203,7 @@
     }
 
     h2 {
-        font-family:$font_page;
+        font-family: $font_page;
         font-weight: 400;
         font-style: normal;
         color: rgb(17, 17, 17);
@@ -409,16 +409,20 @@
             font-weight: 400;
             font-style: normal;
         }
-    } a:hover{
+    }
+
+    a:hover {
         color: $orange_color;
     }
 }
+
 // sec_main_5
-.sec_main_5{
+.sec_main_5 {
     // background-color: chartreuse;
     width: 100%;
     height: 28vw;
 }
+
 // .Specials_and_para p{
 //     font-family:$font_page;
 //         font-weight: 400;
@@ -433,130 +437,163 @@
 //             height: 100px;
 //         }
 // }
-.WhyUs_and_para{
+.WhyUs_and_para {
     // background-color: aquamarine;
     width: 100%;
     height: 10vw;
 }
-.sec_main_5{
-    .image{
+
+.sec_main_5 {
+    .image {
         // background-color: aqua;
         width: 100%;
         height: 100%;
     }
-    img{
+
+    img {
         width: 75%;
         height: 100%;
     }
 }
 
-.collapseExampleee_link{
-    p{
+.collapseExampleee_link {
+    p {
         text-align: start;
     }
-    a{
+
+    a {
         font-weight: bold;
         font-size: 15px;
     }
-    p:hover{
+
+    p:hover {
         color: $orange_color ;
     }
 }
-#hamza_speacil{
+
+#hamza_speacil {
     width: 1800px;
 }
-.h1_para_specials{
+
+.h1_para_specials {
     text-align: start;
-    h1{
+
+    h1 {
         font-size: 25px;
         font-weight: bold;
         font-family: $font_page;
     }
-    p{
+
+    p {
         font-size: 15px;
     }
 }
+
 // sec_6
-.sec_main_6{
+.sec_main_6 {
     background-color: blue;
     width: 100%;
     height: 32vw;
-    .image_sec_6{
+
+    .image_sec_6 {
         width: 100%;
         height: 100%;
-        img{
+
+        img {
             width: 100%;
             height: 100%;
         }
     }
-    .carousel-indicators [data-bs-target]{
+
+    .carousel-indicators [data-bs-target] {
         width: 15px;
         height: 15px;
         border-radius: 50%;
         background-color: $orange_color ;
     }
-    .carousel-indicators [data-bs-target]:active{
-          background-color: $orange_color ;  
+
+    .carousel-indicators [data-bs-target]:active {
+        background-color: $orange_color ;
     }
 
 }
+
 // sec_7_BookA_Table
-.sec_7_BookA_Table{
+.sec_7_BookA_Table {
     width: 100%;
     height: 42vw;
+
     // background-color: cadetblue;
-    .span_book_a_table{
+    .span_book_a_table {
         color: $orange_color;
     }
-    .WhyUs_and_para{
+
+    .WhyUs_and_para {
         // background-color: aqua;
         width: 100%;
         height: 10vw;
     }
-    .input_and_img_sec_7{
+
+    .input_and_img_sec_7 {
         background-color: rgb(250, 250, 250);
         width: 100%;
         height: 30vw;
     }
-    .img_sec_7{
-        img{
+
+    .img_sec_7 {
+        img {
             width: 100%;
             height: 100%;
         }
     }
 }
-.input_and_img_sec_7{
-    div{
+
+.input_and_img_sec_7 {
+    div {
         height: 100%;
     }
 }
-.input_divs div{
+
+.input_divs div {
     width: 100%;
     height: max-content;
     // border: 1px solid;
 }
-.input_sec_7 div{
+
+.input_sec_7 div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     row-gap: 20px;
-    .input_part_1{
+
+    .input_part_1 {
         flex-direction: row;
     }
-    .input_part_2{
-         flex-direction: row;
+
+    .input_part_2 {
+        flex-direction: row;
     }
-    .div_1_input input{
+
+    .div_1_input input {
         border: none;
         outline: none;
         padding: 5px;
     }
-     .textarea{
-    
+
+    //  .textarea{
+
+    // }
+
+
+    // 
+    .wawawaw {
+        width: 100%;
+        height: 100%;
     }
-   
-    .butttn button{
+
+    // 
+    .butttn button {
         background-color: $orange_color;
         padding: 15px 70px;
         border-radius: 5px;
@@ -564,42 +601,138 @@
         color: white;
     }
 }
-.input_sec_7 input{
+
+.input_sec_7 input {
     background-color: rgb(255, 255, 255);
 }
- .input_time input{
-        width: 240px;
-    }
+
+.input_time input {
+    width: 240px;
+}
 
 // sec_8_Gallery
-.sec_8_Gallery{
+.sec_8_Gallery {
     // background-color: brown;
     width: 100%;
     height: 48vw;
-    .span_gallery_color{
+
+    .span_gallery_color {
         color: $orange_color;
     }
-    .parnt_sec8 div{
+
+    .parnt_sec8 div {
         height: 100%;
     }
-   .img_sec8{
-    // background-color: chartreuse;
-    height: max-content;
-    // border: 10px solid;
-   }
+
+    .img_sec8 {
+        // background-color: chartreuse;
+        height: max-content;
+        // border: 10px solid;
+    }
 }
-.parnt_sec8{
+
+.parnt_sec8 {
     width: 100%;
     height: max-content;
     row-gap: 20px;
-    img{
+
+    img {
         width: 100%;
         height: max-content;
         transition: 0.5s;
     }
-    .img_sec8:hover{
-      padding: 1px;
+
+    .img_sec8:hover {
+        padding: 1px;
     }
 }
 
+.sec_10 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 34vw;
+}
 
+// 
+// sec_11
+// .sec_11 {
+//     border-color: #00ffff;
+//     width: 100%;
+//     height: 50vw;
+
+//     .span_contact_color {
+//         color: $orange_color;
+
+//         .WhyUs_and_para {
+//             width: 100%;
+//             height: 9vw;
+//         }
+
+//         .map_contact{
+//             width: 100%;
+//             height: 14vw;
+//             background-color: red;
+//             iframe {
+//                 width: 100%;
+//                 height: 14vw;
+//                 background-color: red;
+
+//             }
+//         }
+//     }
+// }
+.map_contact {
+    width: 100%;
+    height: 35vw;
+    background-color: blueviolet;
+}
+
+iframe {
+    width: 100%;
+    height: 35vw;
+}
+.input_contact{
+       width: 100%;
+    height: 40vw;
+    // background-color: red;
+}
+.contact_first_div{
+    text-align: start;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    h1{
+        font-family: $font_page;
+        font-size: 22px;
+    }
+    h2{
+        font-size: 30px;
+        padding-left: 30px;
+    font-family: $font_page;
+
+    }
+    i{
+        color: $orange_color;
+        padding-right: 20px;
+    }
+    p{
+        padding-left: 30px;
+        color: rgb(168, 158, 158);
+    }
+    .div_contact{
+        border-bottom: 1px solid;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+ 
+    }
+}
+   button{
+          background-color: $orange_color;
+        padding: 15px 70px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+ .input_last input{
+    border: none;
+ }
