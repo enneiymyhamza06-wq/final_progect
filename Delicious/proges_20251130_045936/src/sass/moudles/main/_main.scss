@@ -758,10 +758,7 @@ iframe {
         border: none;
         color: white;
     }
- input{
-    // border: none
 
- }
   .input_last{
         display: flex;
         align-items: center;
@@ -769,8 +766,22 @@ iframe {
         flex-direction: column;
         row-gap: 10px;
   }
-//   .div_i_chaf{
-//   }
+  .div_chaf_in_card{
+    h1{
+        font-family: $font_page;
+        font-size: 30px;
+    }
+  }
+  .div_i_chaf{
+    position: absolute;
+    top: 350px;
+    i{
+        color: gray;
+    }
+  }
+    .div_1_input:hover i{
+        color: $orange_color;
+    }
 
 .form-control:focus {
   outline: none;           
@@ -783,4 +794,8 @@ iframe {
   box-shadow: none;
 }
 
-
+textarea:focus:focus,textarea {
+  outline: none;
+  box-shadow: none;
+//   border: none;
+}

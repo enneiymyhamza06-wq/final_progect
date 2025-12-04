@@ -629,6 +629,23 @@ button {
   row-gap: 10px;
 }
 
+.div_chaf_in_card h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+
+.div_i_chaf {
+  position: absolute;
+  top: 350px;
+}
+.div_i_chaf i {
+  color: gray;
+}
+
+.div_1_input:hover i {
+  color: rgb(255, 176, 59);
+}
+
 .form-control:focus {
   outline: none;
   box-shadow: none;
@@ -637,6 +654,11 @@ button {
 
 .btn:focus,
 .btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+textarea:focus:focus, textarea {
   outline: none;
   box-shadow: none;
 }
