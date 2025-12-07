@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Stack+Sans+Headline:wght@200..700&display=swap");
 .nav_botona {
   background-color: rgb(255, 176, 59);
@@ -45,13 +46,16 @@ a:hover li {
   color: rgb(255, 176, 59);
 }
 
+.dropdown-item li {
+  color: black;
+}
+
 .hamza_carousil_1 {
   position: relative;
 }
 
 .imgss_carosil {
   width: 100%;
-  height: 45.5vw;
 }
 
 .part_2 {
@@ -120,17 +124,14 @@ a:hover li {
 .sec_main_2 {
   background-color: rgb(255, 250, 242);
   width: 100%;
-  height: 31vw;
 }
 
 .carosil_icons_sec2 {
   width: 100%;
-  height: 30vw;
   display: flex;
 }
 .carosil_icons_sec2 .carousil_video {
   width: 50%;
-  height: 25vw;
 }
 .carosil_icons_sec2 .carousil_video img {
   overflow: auto;
@@ -138,7 +139,6 @@ a:hover li {
 }
 .carosil_icons_sec2 .para_and_icons {
   width: 50%;
-  height: 25vw;
 }
 .carosil_icons_sec2 .para_and_icons .icons_color i {
   color: rgb(255, 176, 59);
@@ -157,7 +157,6 @@ a:hover li {
 
 .WhyUs_and_para {
   width: 100%;
-  height: 10vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -189,7 +188,6 @@ a:hover li {
 }
 
 .boxxx_sec_3 {
-  height: 13vw;
   width: 100%;
   padding-bottom: 20px;
   text-align: start;
@@ -229,7 +227,6 @@ a:hover li {
 
 .sec_main_4 {
   width: 100%;
-  height: 47.5vw;
 }
 .sec_main_4 .menu_div {
   display: flex;
@@ -266,6 +263,7 @@ a:hover li {
 }
 
 .carousil_between_img {
+  background-color: rgb(255, 176, 59);
   width: 100px;
   height: 130px;
   border-radius: 50%;
@@ -292,12 +290,10 @@ a:hover li {
 
 .div_only_sass {
   width: 100%;
-  height: 86.5vh;
   display: flex;
 }
 .div_only_sass .div_only_sass_part_1 {
   width: 50%;
-  height: 86.5vh;
   display: flex;
   flex-direction: column;
   row-gap: 50px;
@@ -305,7 +301,6 @@ a:hover li {
 }
 .div_only_sass .div_only_sass_part_2 {
   width: 50%;
-  height: 86.5vh;
   display: flex;
   flex-direction: column;
   row-gap: 50px;
@@ -352,7 +347,6 @@ a:hover li {
 
 .links_menu_only_Sass {
   width: 100%;
-  height: 5vw;
   display: flex;
   flex-direction: row;
   column-gap: 20px;
@@ -372,7 +366,6 @@ a:hover li {
 
 .sec_main_5 {
   width: 100%;
-  height: 28vw;
 }
 
 .WhyUs_and_para {
@@ -419,7 +412,7 @@ a:hover li {
 .sec_main_6 {
   background-color: blue;
   width: 100%;
-  height: 32vw;
+  height: max-content;
 }
 .sec_main_6 .part_1 {
   flex-direction: column;
@@ -458,8 +451,26 @@ a:hover li {
 }
 
 .sec_7_BookA_Table {
-  width: 100%;
-  height: 42vw;
+  /* سكسيون Book a Table */
+}
+.sec_7_BookA_Table .sec_7_BookA_Table {
+  padding: 40px 0;
+}
+.sec_7_BookA_Table {
+  /* مسافة بين Book a Table و Gallery */
+}
+.sec_7_BookA_Table .sec_7_BookA_Table + .sec_8_Gallery {
+  margin-top: 50px;
+}
+.sec_7_BookA_Table {
+  /* مسافات داخل الفورم */
+}
+.sec_7_BookA_Table .input_divs .row {
+  margin-bottom: 10px;
+}
+.sec_7_BookA_Table .input_divs input,
+.sec_7_BookA_Table .input_divs textarea {
+  padding: 8px 10px;
 }
 .sec_7_BookA_Table .span_book_a_table {
   color: rgb(255, 176, 59);
@@ -504,6 +515,8 @@ a:hover li {
   border: none;
   outline: none;
   padding: 5px;
+  width: 100%;
+  background-color: transparent;
 }
 .input_sec_7 div .wawawaw {
   width: 100%;
@@ -525,38 +538,32 @@ a:hover li {
   width: 240px;
 }
 
-.sec_8_Gallery {
-  width: 100%;
-  height: 48vw;
-}
-.sec_8_Gallery .span_gallery_color {
-  color: rgb(255, 176, 59);
-}
-.sec_8_Gallery .parnt_sec8 div {
-  height: 100%;
-}
-.sec_8_Gallery .img_sec8 {
-  height: max-content;
-}
-
 .parnt_sec8 {
   width: 100%;
-  height: max-content;
-  row-gap: 20px;
+  row-gap: 10px;
+}
+.parnt_sec8 img {
+  border: 1px solid rgb(25, 86, 219);
 }
 .parnt_sec8 img {
   width: 100%;
-  height: max-content;
-  transition: 0.5s;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
 }
-.parnt_sec8 .img_sec8:hover {
-  padding: 1px;
+.parnt_sec8 .img_sec8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.parnt_sec8 .img_sec8:hover img {
+  transform: scale(1.1);
 }
 
 .sec_10 {
-  background-color: aquamarine;
   width: 100%;
-  height: 30vw;
+  padding: 30px 0;
 }
 
 .sec_11 {
@@ -569,18 +576,14 @@ a:hover li {
 
 .map_contact {
   width: 100%;
-  height: 35vw;
-  background-color: blueviolet;
 }
 
 iframe {
   width: 100%;
-  height: 35vw;
 }
 
 .input_contact {
   width: 100%;
-  height: 40vw;
 }
 
 .contact_first_div {
@@ -657,11 +660,272 @@ i:hover {
   box-shadow: none;
 }
 
-textarea:focus:focus, textarea {
+textarea:focus:focus,
+textarea {
   outline: none;
   box-shadow: none;
 }
 
+.carousel-item .imges {
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec_10 .carousel-item {
+  position: relative;
+}
+.sec_10 .carousel-item div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.sec_10 .carousel-item .star-rating {
+  display: flex;
+  flex-direction: row;
+}
+.sec_10 .carousel-item .slm {
+  position: absolute;
+  top: -310px;
+}
+.sec_10 .carousel {
+  position: relative;
+}
+
+#testimonialsCarousel .carousel-indicators {
+  bottom: 30px;
+}
+
+#testimonialsCarousel .carousel-indicators [data-bs-target] {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#testimonialsCarousel .carousel-indicators .active {
+  background-color: #ffb03b;
+  border-color: #ffb03b;
+}
+
+.sec_main_6 .carousel-caption {
+  padding-top: 150px;
+}
+
+.parnt_sec8 {
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.w_img {
+  filter: brightness(55%);
+}
+
+.hamza_img {
+  filter: brightness(55%);
+}
+
+.bi::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.imgss_carosil {
+  width: 100%;
+}
+
+.sec_main_2,
+.sec_main_3,
+.sec_main_4,
+.sec_main_5,
+.sec_main_6,
+.sec_7_BookA_Table,
+.sec_8_Gallery,
+.sec_10,
+.sec_11,
+.input_contact {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.carosil_icons_sec2,
+.div_only_sass,
+.sec_7_BookA_Table .input_and_img_sec_7 {
+  display: flex;
+}
+
+.carousil_video,
+.para_and_icons,
+.div_only_sass_part_1,
+.div_only_sass_part_2,
+.img_sec_7,
+.input_sec_7 {
+  width: 50%;
+}
+
+.map_contact,
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.sec_main_2 {
+  background-color: rgb(255, 250, 242);
+  width: 100%;
+  padding: 60px 0;
+}
+
+.carosil_icons_sec2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.carousil_video {
+  width: 50%;
+  position: relative;
+}
+
+.carousil_video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousil_between_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffb03b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousil_between_img i {
+  color: #fff;
+  font-size: 48px;
+}
+
+.para_and_icons {
+  width: 50%;
+}
+
+@media (max-width: 758px) {
+  main .sec_main_1 {
+    display: block;
+  }
+  main .sec_main_1 .w_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main .sec_main_1 .hamza_carousil_1 .carousel-item {
+    height: 130vh;
+  }
+  main .sec_main_1 .sec_main_2 {
+    background-color: rgb(255, 250, 242);
+    width: 100%;
+    padding: 60px 0;
+  }
+  main .sec_main_1 .carosil_icons_sec2 {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  main .sec_main_1 .carousil_video {
+    width: 50%;
+  }
+  main .sec_main_1 .carousil_video img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main .sec_main_1 .para_and_icons {
+    width: 50%;
+  }
+  main {
+    display: block;
+  }
+  main .sec_main_2,
+  main .sec_main_3,
+  main .sec_main_4,
+  main .sec_main_5,
+  main .sec_main_6,
+  main .sec_7_BookA_Table,
+  main .sec_8_Gallery,
+  main .sec_10,
+  main .sec_11,
+  main .input_contact {
+    height: auto;
+    padding: 60px 0;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb03b;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 700px;
+  }
+}
+@media (max-width: 991.98px) {
+  .sec_main_2 img {
+    width: auto;
+  }
+  .between_img {
+    background-color: coral;
+    width: 100%;
+    height: auto;
+  }
+  .carosil_icons_sec2 {
+    width: 100%;
+  }
+  .carosil_icons_sec2,
+  .div_only_sass,
+  .sec_7_BookA_Table .input_and_img_sec_7 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .carousil_video,
+  .para_and_icons,
+  .div_only_sass_part_1,
+  .div_only_sass_part_2,
+  .img_sec_7,
+  .input_sec_7 {
+    width: 100%;
+  }
+  .parnt_sec8 .img_sec8 {
+    width: 50%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .input_contact {
+    background-color: #ffb03b;
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer {
   background-color: rgb(31, 22, 13);
   width: 100%;
